@@ -1,4 +1,4 @@
-import { Papersolution } from "../models/Papersolution.model.js"
+import { Papersolution } from "../models/papersolution.model.js"
 import { ApiError } from "../utils/ApiError.js"
 import { ApiResponse } from "../utils/ApiResponse.js"
 import {asyncHandler} from "../utils/asyncHandler.js"
