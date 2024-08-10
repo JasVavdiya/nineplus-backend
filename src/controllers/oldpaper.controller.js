@@ -1,4 +1,4 @@
-import { Oldpaper } from "../models/Oldpaper.model.js"
+import { Oldpaper } from "../models/oldpaper.model.js"
 import { ApiError } from "../utils/ApiError.js"
 import { ApiResponse } from "../utils/ApiResponse.js"
 import {asyncHandler} from "../utils/asyncHandler.js"
