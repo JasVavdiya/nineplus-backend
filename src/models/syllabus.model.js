@@ -1,7 +1,7 @@
 import mongoose, {Schema} from "mongoose";
 
 
-const bookSchema = new Schema({
+const syllabusSchema = new Schema({
 
     semesterId: {
         type: Number,
@@ -33,4 +33,4 @@ const bookSchema = new Schema({
 }
 )
 
-export const Book = mongoose.model("Book",bookSchema);
+export const Syllabus = mongoose.model("Syllabus",syllabusSchema);

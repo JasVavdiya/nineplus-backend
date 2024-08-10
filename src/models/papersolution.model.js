@@ -1,7 +1,7 @@
 import mongoose, {Schema} from "mongoose";
 
 
-const bookSchema = new Schema({
+const papersolutionSchema = new Schema({
 
     semesterId: {
         type: Number,
@@ -14,6 +14,10 @@ const bookSchema = new Schema({
     subjectCode: {
         type: Number,
         required: [true, "Subject code is required!"]
+    },
+    yearOfPaper: {
+        type: String,
+        required: [true, "Year of paper is required!"]
     },
     noOfPage: {
         type: Number,
@@ -33,4 +37,4 @@ const bookSchema = new Schema({
 }
 )
 
-export const Book = mongoose.model("Book",bookSchema);
+export const Papersolution = mongoose.model("Papersolution",papersolutionSchema);

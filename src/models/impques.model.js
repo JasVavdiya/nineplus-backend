@@ -1,7 +1,7 @@
 import mongoose, {Schema} from "mongoose";
 
 
-const bookSchema = new Schema({
+const impquesSchema = new Schema({
 
     semesterId: {
         type: Number,
@@ -33,4 +33,4 @@ const bookSchema = new Schema({
 }
 )
 
-export const Book = mongoose.model("Book",bookSchema);
+export const Impques = mongoose.model("Impques",impquesSchema);
